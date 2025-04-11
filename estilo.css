@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('imagens/bg.jpg') no-repeat;
+}
+
+.mosquito1 {
+    width: 50px;
+    position: absolute;
+}
+
+.mosquito2 {
+    width: 70px;
+    position: absolute;
+}
+
+.mosquito3 {
+    width: 90px;
+    position: absolute;
+}
+
+#container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0px 5px;
+}
+
+#tempo {
+    color: white;
+    font-weight: bold;
+}
